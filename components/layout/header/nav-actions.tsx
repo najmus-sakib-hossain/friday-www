@@ -108,7 +108,7 @@ export function NavDesktopActions({ items = mainNav }: NavDesktopActionsProps) {
                                 >
                                     {item.icon && <item.icon className={cn(
                                         "size-4 shrink-0",
-                                        state === "expanded" && "mr-10"
+                                        state === "expanded" && "mr-2"
                                     )}
                                     />}
                                     {state === "expanded" && (
